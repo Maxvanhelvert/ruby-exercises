@@ -8,7 +8,7 @@ RSpec.describe 'Array Exercises' do
       expect(nil_array(5)).to eq([nil, nil, nil, nil, nil])
     end
 
-    # remove the 'x' from the line below to unskip the test
+    # remove the 'x' from the line below to un-skip the test
     it 'returns an array containing 2 nil values' do
       expect(nil_array(2)).to eq([nil, nil])
     end
